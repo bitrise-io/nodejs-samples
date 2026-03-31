@@ -2,6 +2,7 @@
   "name": "next-js-yarn",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "yarn@1.22.22",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,6 +13,9 @@
     "next": "15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
