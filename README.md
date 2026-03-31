@@ -64,6 +64,7 @@ npm test
 
 **How to run:**
 ```bash
+corepack enable  # one-time setup, activates yarn via Node.js corepack
 cd next-js-yarn
 yarn install
 yarn build
