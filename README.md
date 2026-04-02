@@ -9,6 +9,7 @@ This repository contains Node.js sample projects covering typical combinations o
 | [nextjs-npm](nextjs-npm/) | Next.js | npm | Jest · Testing Library | `.nvmrc` |
 | [nextjs-yarn](nextjs-yarn/) | Next.js | Yarn | — | `engines` in package.json |
 | [nestjs-cats-app](nestjs-cats-app/) | NestJS | npm | Jest · Supertest (unit + E2E) | `.tool-versions` |
+| [nestjs-node-version](nestjs-node-version/) | NestJS | npm | Jest · Supertest (unit + E2E) | `.node-version` |
 
 ---
 
@@ -47,6 +48,25 @@ corepack enable  # one-time setup, activates yarn via Node.js corepack
 cd nextjs-yarn
 yarn install
 yarn build
+```
+
+---
+
+### nestjs-node-version
+
+**Stack:** NestJS · TypeScript · Jest · Supertest · npm
+
+**What it demonstrates:**
+- Same NestJS structure as `nestjs-cats-app`
+- Node version pinned via `.node-version` (used by nodenv and fnm)
+
+**How to run:**
+```bash
+cd nestjs-node-version
+nodenv install  # or: fnm install
+npm install
+npm test              # unit tests
+npm run test:e2e      # E2E tests
 ```
 
 ---
