@@ -6,13 +6,13 @@ This repository contains Node.js sample projects covering typical combinations o
 
 | Directory | Framework | Package Manager | Testing | Node Version Management |
 |-----------|-----------|-----------------|---------|-------------------------|
-| [next-js-npm](next-js-npm/) | Next.js | npm | Jest · Testing Library | `.nvmrc` |
-| [next-js-yarn](next-js-yarn/) | Next.js | Yarn | — | `engines` in package.json |
+| [nextjs-npm](nextjs-npm/) | Next.js | npm | Jest · Testing Library | `.nvmrc` |
+| [nextjs-yarn](nextjs-yarn/) | Next.js | Yarn | — | `engines` in package.json |
 | [nestjs-cats-app](nestjs-cats-app/) | NestJS | npm | Jest · Supertest (unit + E2E) | `.tool-versions` |
 
 ---
 
-### next-js-npm
+### nextjs-npm
 
 **Stack:** Next.js · React · TypeScript · Jest · Testing Library · npm
 
@@ -24,7 +24,7 @@ This repository contains Node.js sample projects covering typical combinations o
 
 **How to run:**
 ```bash
-cd next-js-npm
+cd nextjs-npm
 nvm use  # or: fnm use
 npm install
 npm test
@@ -32,7 +32,7 @@ npm test
 
 ---
 
-### next-js-yarn
+### nextjs-yarn
 
 **Stack:** Next.js · React · TypeScript · Yarn
 
@@ -44,7 +44,7 @@ npm test
 **How to run:**
 ```bash
 corepack enable  # one-time setup, activates yarn via Node.js corepack
-cd next-js-yarn
+cd nextjs-yarn
 yarn install
 yarn build
 ```
